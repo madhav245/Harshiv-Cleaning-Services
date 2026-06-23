@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshiv Cleaning Services | Professional Cleaning in Ahmedabad</title>
+    <meta name="description" content="Official website of Harshiv Cleaning Services. Premium home & office cleaning in Ahmedabad. ISO standard processes, verified staff, and 5-star rated service.">
+    <meta name="keywords" content="Cleaning services in Ahmedabad, Corporate cleaning, Deep cleaning services, Harshiv Cleaning Services">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a', /* Slate 900 */
+                        accent: '#0284c7', /* Sky 600 */
+                        secondary: '#334155', /* Slate 700 */
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-slate-800 antialiased">
+
+    <!-- Top Bar (Desktop Only) -->
+    <div class="hidden md:block bg-primary text-slate-300 py-2 text-xs font-medium tracking-wide">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-6">
+                <span><i class="fas fa-map-marker-alt mr-2 text-accent"></i>Vishala, Ahmedabad - 380007</span>
+                <span><i class="fas fa-clock mr-2 text-accent"></i>24/7 Support</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="tel:09904970581" class="hover:text-white transition"><i class="fas fa-phone-alt mr-2"></i>+91 99049 70581</a>
+                <span class="text-white bg-white/10 px-2 py-0.5 rounded"><i class="fas fa-star text-yellow-400 mr-1"></i>5.0 (99 Reviews)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="bg-primary text-white w-10 h-10 rounded flex items-center justify-center shadow-lg group-hover:bg-accent transition duration-300">
+                    <i class="fas fa-broom text-lg"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-primary tracking-tight leading-none uppercase">Harshiv</h1>
+                    <p class="text-[10px] text-gray-500 font-bold tracking-[0.2em] uppercase mt-0.5">Cleaning Services</p>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex gap-8 text-sm font-semibold text-gray-600 uppercase tracking-wide">
+                <a href="#home" class="hover:text-accent transition">Home</a>
+                <a href="#services" class="hover:text-accent transition">Services</a>
+                <a href="#why-us" class="hover:text-accent transition">Why Us</a>
+                <a href="#reviews" class="hover:text-accent transition">Testimonials</a>
+                <a href="#contact" class="hover:text-accent transition">Contact</a>
+            </nav>
+
+            <!-- CTA Button (Desktop) -->
+            <a href="https://wa.me/919904970581?text=Hi,%20I%20am%20interested%20in%20cleaning%20services." target="_blank" class="hidden md:inline-flex items-center bg-accent hover:bg-sky-700 text-white px-6 py-2.5 rounded shadow-lg hover:shadow-xl transition text-sm font-medium">
+                <i class="fab fa-whatsapp mr-2 text-lg"></i> Inquire Now
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-primary text-2xl p-2">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-xl">
+            <div class="flex flex-col p-6 gap-4 font-medium text-gray-700">
+                <a href="#home" class="mobile-link hover:text-accent">Home</a>
+                <a href="#services" class="mobile-link hover:text-accent">Services</a>
+                <a href="#why-us" class="mobile-link hover:text-accent">Why Us</a>
+                <a href="#reviews" class="mobile-link hover:text-accent">Reviews</a>
+                <a href="#contact" class="mobile-link hover:text-accent">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-[650px] flex items-center justify-center text-center px-6 relative">
+        <div class="max-w-4xl text-white relative z-10">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-xs font-bold px-4 py-1.5 rounded-full mb-6 uppercase tracking-wider shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+                Top Rated in Ahmedabad
+            </div>
+            <h2 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight">
+                Premium Cleaning Standards <br> <span class="text-sky-400">For Your Home & Office</span>
+            </h2>
+            <p class="text-lg md:text-xl mb-10 text-gray-300 font-light max-w-2xl mx-auto">
+                Experience the deepest clean with our ISO-grade processes. We specialize in deep home sanitization, sofa restoration, and commercial cleaning.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:09904970581" class="bg-accent hover:bg-sky-700 text-white px-8 py-3.5 rounded font-semibold text-lg shadow-lg hover:shadow-sky-500/30 transition transform hover:-translate-y-1">
+                    Book Service Now
+                </a>
+                <a href="#services" class="bg-transparent border border-white/30 hover:bg-white/10 text-white px-8 py-3.5 rounded font-semibold text-lg backdrop-blur-sm transition">
+                    Explore Solutions
+                </a>
+            </div>
+            
+            <!-- Trust Indicators -->
+            <div class="mt-16 border-t border-white/10 pt-8 flex flex-wrap justify-center gap-8 md:gap-16 text-sm text-gray-300">
+                <div class="flex flex-col items-center">
+                    <span class="text-2xl font-bold text-white mb-1">99+</span>
+                    <span>5-Star Reviews</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-2xl font-bold text-white mb-1">24/7</span>
+                    <span>Availability</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-2xl font-bold text-white mb-1">100%</span>
+                    <span>Satisfaction</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 md:py-28 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div>
+                    <h3 class="text-accent font-bold uppercase tracking-widest text-xs mb-2">Our Expertise</h3>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary">Professional Services</h2>
+                </div>
+                <p class="text-gray-500 max-w-md md:text-right pb-1">
+                    Comprehensive cleaning solutions tailored to your specific needs, delivered by verified professionals.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card group bg-gray-50 hover:bg-white p-8 rounded border border-gray-100">
+                    <div class="w-14 h-14 bg-white border border-gray-200 text-primary rounded flex items-center justify-center text-2xl mb-6 shadow-sm group-hover:bg-accent group-hover:text-white group-hover:border-accent transition-colors">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Deep Home Cleaning</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Detailed sanitization for 2BHK, 3BHK, and villas. Includes machine scrubbing, dusting high corners, and disinfection.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card group bg-gray-50 hover:bg-white p-8 rounded border border-gray-100">
+                    <div class="w-14 h-14 bg-white border border-gray-200 text-primary rounded flex items-center justify-center text-2xl mb-6 shadow-sm group-hover:bg-accent group-hover:text-white group-hover:border-accent transition-colors">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Sofa Shampooing</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Restorative cleaning for fabric and leather sofas. We use eco-friendly chemicals to remove tough stains and odors.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card group bg-gray-50 hover:bg-white p-8 rounded border border-gray-100">
+                    <div class="w-14 h-14 bg-white border border-gray-200 text-primary rounded flex items-center justify-center text-2xl mb-6 shadow-sm group-hover:bg-accent group-hover:text-white group-hover:border-accent transition-colors">
+                        <i class="fas fa-toilet"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Washroom Sanitization</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Deep scaling and descaling of tiles, taps, and sanitary ware. Ensures a 99.9% germ-free environment.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card group bg-gray-50 hover:bg-white p-8 rounded border border-gray-100">
+                    <div class="w-14 h-14 bg-white border border-gray-200 text-primary rounded flex items-center justify-center text-2xl mb-6 shadow-sm group-hover:bg-accent group-hover:text-white group-hover:border-accent transition-colors">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Kitchen Deep Clean</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Removal of stubborn oil grease from chimneys, exhaust fans, and cabinets using industrial-grade degreasers.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card group bg-gray-50 hover:bg-white p-8 rounded border border-gray-100">
+                    <div class="w-14 h-14 bg-white border border-gray-200 text-primary rounded flex items-center justify-center text-2xl mb-6 shadow-sm group-hover:bg-accent group-hover:text-white group-hover:border-accent transition-colors">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Corporate Cleaning</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Customized maintenance plans for offices, retail stores, and commercial buildings to maintain a professional look.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card group bg-gray-50 hover:bg-white p-8 rounded border border-gray-100">
+                    <div class="w-14 h-14 bg-white border border-gray-200 text-primary rounded flex items-center justify-center text-2xl mb-6 shadow-sm group-hover:bg-accent group-hover:text-white group-hover:border-accent transition-colors">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-primary mb-3">Move-In/Move-Out</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">End-of-tenancy cleaning ensuring the property is spotless for the next inspection or your new beginning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="bg-primary text-white py-20 relative overflow-hidden">
+        <!-- Abstract Decoration -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-white/5 skew-x-12 transform translate-x-1/4 pointer-events-none"></div>
+        
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h3 class="text-accent font-bold uppercase tracking-widest text-xs mb-2">Company Values</h3>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Why Ahmedabad Trusts Harshiv</h2>
+                    <p class="text-slate-300 mb-8 leading-relaxed">
+                        We don't just clean; we care for your space. Our reputation is built on reliability, transparency, and delivering results that exceed expectations every single time.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-accent text-xl"><i class="fas fa-check-circle"></i></div>
+                            <div>
+                                <h5 class="font-bold text-white">Verified Staff</h5>
+                                <p class="text-xs text-slate-400 mt-1">Background checked & trained professionals.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-accent text-xl"><i class="fas fa-check-circle"></i></div>
+                            <div>
+                                <h5 class="font-bold text-white">Eco-Friendly</h5>
+                                <p class="text-xs text-slate-400 mt-1">Safe chemicals for kids and pets.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-accent text-xl"><i class="fas fa-check-circle"></i></div>
+                            <div>
+                                <h5 class="font-bold text-white">Transparent Pricing</h5>
+                                <p class="text-xs text-slate-400 mt-1">No hidden costs or last minute charges.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-accent text-xl"><i class="fas fa-check-circle"></i></div>
+                            <div>
+                                <h5 class="font-bold text-white">On-Time Guarantee</h5>
+                                <p class="text-xs text-slate-400 mt-1">We value your time as much as you do.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stats Card -->
+                <div class="bg-white text-slate-800 p-8 md:p-10 rounded shadow-2xl relative">
+                    <div class="absolute -top-6 -right-6 w-20 h-20 bg-accent rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="flex items-end gap-3 mb-6">
+                        <span class="text-6xl font-bold text-primary tracking-tighter">5.0</span>
+                        <div class="pb-3">
+                            <div class="text-yellow-400 text-sm mb-1">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <span class="text-sm font-semibold text-gray-500">Average Google Rating</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6 text-lg border-l-4 border-accent pl-4">
+                        "Professionalism at its peak. The team arrived in uniform, fully equipped, and transformed our office space within hours. Highly recommended."
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="font-bold text-primary">Rajesh Mehta</p>
+                            <p class="text-xs text-gray-400">Business Owner, Satellite</p>
+                        </div>
+                        <a href="https://www.google.com/search?q=Harshiv+Cleaning+Services" target="_blank" class="text-accent text-sm font-bold hover:underline">Read 99+ Reviews</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Grid -->
+    <section id="reviews" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="text-accent font-bold uppercase tracking-widest text-xs mb-2">Testimonials</h3>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary">Client Experiences</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review Card 1 -->
+                <div class="bg-white p-8 rounded shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-yellow-400 text-xs">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-gray-300 text-xs">2 days ago</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed">"Excellent service for 3 BHK cleaning. The team arrived on time and did a fantastic job with the bathroom and floor cleaning. Very polite staff."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center text-slate-500 text-xs font-bold">RP</div>
+                        <div>
+                            <h5 class="font-bold text-sm text-primary">Rahul Patel</h5>
+                            <p class="text-[10px] text-gray-400 uppercase tracking-wide">Home Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="bg-white p-8 rounded shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-yellow-400 text-xs">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-gray-300 text-xs">1 week ago</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed">"Staff is very cooperative. I called them for sofa cleaning, and they removed all the tough stains. Best sofa cleaning company in Ahmedabad."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center text-slate-500 text-xs font-bold">AS</div>
+                        <div>
+                            <h5 class="font-bold text-sm text-primary">Amit Shah</h5>
+                            <p class="text-[10px] text-gray-400 uppercase tracking-wide">Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="bg-white p-8 rounded shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-yellow-400 text-xs">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-gray-300 text-xs">3 weeks ago</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed">"Good service at reasonable price. They cleaned my windows and glass doors perfectly. Will definitely call them again."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center text-slate-500 text-xs font-bold">PS</div>
+                        <div>
+                            <h5 class="font-bold text-sm text-primary">Priya Sharma</h5>
+                            <p class="text-[10px] text-gray-400 uppercase tracking-wide">Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-lg shadow-2xl overflow-hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    
+                    <!-- Contact Info -->
+                    <div class="bg-primary text-white p-12 flex flex-col justify-between relative overflow-hidden">
+                        <!-- BG Pattern -->
+                        <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Get In Touch</h3>
+                            <p class="text-slate-400 text-sm mb-10">Fill out the form or reach us directly.</p>
+                            
+                            <div class="space-y-8">
+                                <div class="flex items-start gap-5 group">
+                                    <div class="w-10 h-10 rounded bg-white/10 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-white transition"><i class="fas fa-map-marker-alt"></i></div>
+                                    <div>
+                                        <h5 class="font-bold text-sm uppercase tracking-wide text-gray-300 mb-1">Office Address</h5>
+                                        <p class="text-sm text-white font-light leading-relaxed">Gali No 2, Ekta Nagar, Behind Akta School,<br>Vishala, Ahmedabad – 380007</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-5 group">
+                                    <div class="w-10 h-10 rounded bg-white/10 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-white transition"><i class="fas fa-phone-alt"></i></div>
+                                    <div>
+                                        <h5 class="font-bold text-sm uppercase tracking-wide text-gray-300 mb-1">Phone Number</h5>
+                                        <p class="text-sm text-white font-light"><a href="tel:09904970581" class="hover:underline">+91 99049 70581</a></p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-5 group">
+                                    <div class="w-10 h-10 rounded bg-white/10 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-white transition"><i class="fab fa-whatsapp"></i></div>
+                                    <div>
+                                        <h5 class="font-bold text-sm uppercase tracking-wide text-gray-300 mb-1">WhatsApp Support</h5>
+                                        <p class="text-sm text-white font-light">Available 24/7 for Inquiries</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.486245366367!2d72.5485!3d23.0065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85a2e5555555%3A0x0!2sVasna%2C%20Ahmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1625641234567!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius: 8px; opacity: 0.8;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Inquiry Form -->
+                    <div class="p-12 bg-white">
+                        <h3 class="text-2xl font-bold text-primary mb-8">Request a Quote</h3>
+                        <form id="contactForm" onsubmit="sendToWhatsApp(event)">
+                            <div class="space-y-6">
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Your Name</label>
+                                    <input type="text" id="name" required class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded focus:ring-1 focus:ring-accent focus:border-accent focus:outline-none transition" placeholder="John Doe">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Phone Number</label>
+                                    <input type="tel" id="mobile" required class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded focus:ring-1 focus:ring-accent focus:border-accent focus:outline-none transition" placeholder="10-digit Mobile Number">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Service Type</label>
+                                    <select id="service" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded focus:ring-1 focus:ring-accent focus:border-accent focus:outline-none transition">
+                                        <option value="Home Cleaning">Full Home Cleaning</option>
+                                        <option value="Sofa Cleaning">Sofa Cleaning</option>
+                                        <option value="Bathroom Cleaning">Bathroom Cleaning</option>
+                                        <option value="Kitchen Cleaning">Kitchen Cleaning</option>
+                                        <option value="Corporate Cleaning">Corporate Cleaning</option>
+                                        <option value="Other">Other Requirement</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Details</label>
+                                    <textarea id="message" rows="3" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded focus:ring-1 focus:ring-accent focus:border-accent focus:outline-none transition" placeholder="Area size (sq ft), BHK type, or specific issues..."></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-accent hover:bg-sky-700 text-white font-bold py-4 rounded shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5">
+                                    Send Inquiry via WhatsApp
+                                </button>
+                                <p class="text-xs text-gray-400 text-center mt-4">We respect your privacy. No spam.</p>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 pb-24 md:pb-12 border-t border-slate-800">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 text-sm">
+                <div class="md:col-span-1">
+                    <h2 class="text-xl font-bold text-white mb-4">Harshiv</h2>
+                    <p class="leading-relaxed mb-6">Professional cleaning services delivering hygiene and peace of mind to homes and offices across Ahmedabad.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-8 h-8 rounded bg-slate-800 flex items-center justify-center hover:bg-accent hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="w-8 h-8 rounded bg-slate-800 flex items-center justify-center hover:bg-pink-600 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-accent transition">Home</a></li>
+                        <li><a href="#services" class="hover:text-accent transition">Our Services</a></li>
+                        <li><a href="#why-us" class="hover:text-accent transition">Why Choose Us</a></li>
+                        <li><a href="#contact" class="hover:text-accent transition">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-accent transition">Deep Cleaning</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Sofa Shampooing</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Kitchen Cleaning</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Move-in Cleaning</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2"><i class="fas fa-phone-alt text-accent"></i> +91 99049 70581</li>
+                        <li class="flex items-center gap-2"><i class="fab fa-whatsapp text-accent"></i> +91 99049 70581</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-envelope text-accent"></i> info@harshiv.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="border-slate-800 my-8">
+            <div class="flex flex-col md:flex-row justify-between items-center text-xs">
+                <div>&copy; <span id="year"></span> Harshiv Cleaning Services. All Rights Reserved.</div>
+                <div class="mt-2 md:mt-0">Designed for Excellence.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Floating Buttons (Desktop) -->
+    <a href="https://wa.me/919904970581" target="_blank" class="floating-whatsapp fixed bottom-8 right-8 bg-[#25D366] hover:bg-green-600 text-white w-14 h-14 rounded-full shadow-2xl z-40 hidden md:flex items-center justify-center text-3xl transition transform hover:scale-110 hover:shadow-green-500/40">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Mobile Bottom Fixed Bar -->
+    <div class="mobile-bottom-bar fixed bottom-0 left-0 w-full bg-white shadow-[0_-4px_20px_-5px_rgba(0,0,0,0.1)] z-50 border-t border-gray-100">
+        <a href="tel:09904970581" class="flex-1 flex flex-col items-center justify-center py-3 bg-white text-primary border-r border-gray-100 active:bg-gray-50">
+            <i class="fas fa-phone-alt text-lg mb-1"></i>
+            <span class="text-[10px] font-bold uppercase tracking-wide">Call Now</span>
+        </a>
+        <a href="https://wa.me/919904970581" target="_blank" class="flex-1 flex flex-col items-center justify-center py-3 bg-accent text-white active:bg-sky-700">
+            <i class="fab fa-whatsapp text-xl mb-1"></i>
+            <span class="text-[10px] font-bold uppercase tracking-wide">WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
